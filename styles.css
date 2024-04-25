@@ -81,7 +81,7 @@ ul {
 }
 
 .carousel-card {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   margin-right: 40px;
 }
 
@@ -150,7 +150,7 @@ ul {
 }
 
 /* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   .carousel-item button {
     background-color: black;
     color: white;
@@ -171,7 +171,7 @@ ul {
     height: 200px;
   }
   .cr-margin {
-    margin-left: 10px;
+    margin-left: 18px;
   }
 }
 @media only screen and (max-width: 576px) {
