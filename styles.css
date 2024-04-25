@@ -116,7 +116,7 @@ ul {
   }
 }
 .fade-animation {
-  animation: fade 2s ease-out;
+  animation: fade 4s ease-out;
 }
 
 .sliders {
