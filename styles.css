@@ -1,0 +1,215 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  background-color: transparent;
+  top: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links {
+  padding-top: 10px;
+}
+
+h2 {
+  margin-left: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-links a,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav-links ul {
+  margin-right: 40px;
+}
+
+.carousel-item .car-text {
+  font-size: 60px;
+  margin-top: 200px;
+  margin-left: 200px;
+  color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-weight: 600;
+  font-family: "Sedan", serif;
+}
+.carousel-item button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.car-bottom {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+.car-bottom .line {
+  margin-left: 800px;
+  color: white;
+  margin-top: 40px;
+}
+
+.img-cont img:hover {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.carousel-card {
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.testi p,
+.testi-name {
+  padding: 20px;
+}
+
+.fullscreen-image {
+  position: relative;
+}
+.fullscreen-image .fullscreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-animation {
+  animation: fade 2s ease-out;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 20px;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.sliders .slider img {
+  width: 600px;
+  height: 400px;
+}
+
+.arrow-section {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.arrow-section svg {
+  cursor: pointer;
+  height: 24px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .carousel-item button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .carousel-item .car-text {
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  .sliders {
+    height: 220px;
+  }
+  .sliders .slider img {
+    width: 300px;
+    height: 200px;
+  }
+  .cr-margin {
+    padding-left: 24px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .nav-links ul {
+    padding-left: 18px;
+    font-size: 12.4px;
+    gap: 10px;
+  }
+  .carousel-item .car-text {
+    margin-top: 150px;
+    margin-left: 45px;
+    font-size: 30px;
+  }
+  .carousel-item button {
+    margin-left: 45px;
+    padding: 3px 10px;
+    margin-top: 130px;
+    border-radius: 50%;
+    height: 100px;
+    width: 110px;
+  }
+  .car-bottom .line {
+    margin-left: 50px;
+    margin-top: 160px;
+  }
+  .sliders {
+    height: 160px;
+  }
+  .sliders .slider img {
+    width: 200px;
+    height: 150px;
+  }
+  .arrow-section {
+    gap: 100px;
+  }
+  .cr-margin {
+    padding-left: 18px;
+    height: 300px;
+  }
+}/*# sourceMappingURL=styles.css.map */
